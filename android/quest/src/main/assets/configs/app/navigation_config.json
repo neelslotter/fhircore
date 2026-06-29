@@ -204,6 +204,23 @@
             "id": "cmntdRegister"
           }
         ]
+      },
+      {
+        "id": "iysRegister",
+        "display": "IYS",
+        "icon": "",
+        "showCount": true,
+        "actions": [
+          {
+            "trigger": "ON_CLICK",
+            "workflow": "LAUNCH_REGISTER",
+            "id": "iysRegister"
+          },
+          {
+            "trigger": "ON_COUNT",
+            "id": "iysRegister"
+          }
+        ]
       }
     ]
   },
